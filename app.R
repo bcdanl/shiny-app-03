@@ -63,7 +63,7 @@ server <- function(input, output) {
       labs(x = 'Waiting time to next eruption (in mins)',
            y = "Count",
            title = 'Histogram of waiting times') +
-      coord_fixed(ratio = 1.25) +
+      coord_fixed(ratio = 1.5) +
       theme_minimal() +
       theme(plot.title = element_text(hjust = 0.5,
                                       size = rel(1.5),
